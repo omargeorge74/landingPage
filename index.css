@@ -8,9 +8,71 @@
   --hero-secondary-text-color: #e5e7eb;
   --button-color: #3882f6;
 }
-/*? ahsdhfahsdfh*/
-/*! haolsdhflahsdf*/
-/**hahdfhashdf */
+
+/**Hero Section */
 .hero-section {
   background-color: var(--dark-bg-color);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 35px;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+ul > li > a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.hero-logo {
+  font-size: 24px;
+  color: var(--hero-text-color);
+}
+
+.links,
+.hero-info {
+  color: var(--hero-secondary-text-color);
+  font-size: 18px;
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+  padding: 40px;
+  height: 300px;
+}
+.info-section-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 75%;
+}
+.hero-main-text {
+  font-size: 48px;
+  color: var(--hero-text-color);
+  font-weight: 900;
+}
+
+.hero-info {
+  margin: 10px 0px;
+}
+.sign-up-button {
+  background-color: var(--button-color);
+  color: var(--hero-text-color);
+  font-size: 18px;
+  padding: 10px;
+  width: 120px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: var(--dark-bg-color);
 }
