@@ -9,7 +9,7 @@
   --button-color: #3882f6;
 }
 
-/**Hero Section */
+/** Hero Section */
 .hero-section {
   background-color: var(--dark-bg-color);
   display: flex;
@@ -54,6 +54,7 @@ ul > li > a {
 .info-section-stack {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 5px;
   width: 75%;
 }
@@ -75,4 +76,54 @@ ul > li > a {
   border-radius: 10px;
   text-decoration: none;
   border: var(--dark-bg-color);
+}
+
+/** Info Section */
+
+.info-cards-section {
+  margin: 35px 60px;
+  height: 300px;
+  width: auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  margin: 20px;
+  height: auto;
+}
+
+.cards {
+  display: flex;
+  height: 100%;
+  margin: 5px;
+}
+
+.cards > ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  padding: 25px;
+}
+
+ul > li > .card {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.box {
+  border: solid 3px #3882f6;
+  border-radius: 10px;
+  background-color: aliceblue;
+  height: 100%;
+  width: auto;
+}
+
+.card-info {
+  color: #1f2937;
 }
