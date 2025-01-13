@@ -160,7 +160,7 @@ ul > li > .card {
 .call-to-action {
   background-color: #3882f6;
   height: auto;
-  width: auto;
+  width: 800px;
   margin: 50px 200px;
   border-radius: 10px;
 }
